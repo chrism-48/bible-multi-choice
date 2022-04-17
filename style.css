@@ -1,0 +1,45 @@
+@font-face {
+    font-family:myFont1 ;
+    src: url("fonts/Quicksand-Regular.ttf");
+}
+
+body {
+    /* background-image: url("images/pexels-loc-dang-1600132.jpg"); */
+    background-color:rgb(255, 255, 255);
+    
+}
+.container0 {
+    display:flex;
+    justify-content:center;
+}
+.container1 {
+    display:inline-block;
+    position:relative;
+    height:300px;
+    width:300px;
+    
+    
+    
+   
+}
+
+#theBible {
+    height:300px ;
+    width:300px;
+    border-radius:20px; 
+}
+
+h1 {
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    position:absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 15%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%;
+    color:white;
+
+
+}
