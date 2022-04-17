@@ -2,31 +2,37 @@
     font-family:myFont1 ;
     src: url("fonts/Quicksand-Regular.ttf");
 }
+@font-face {
+    font-family:myFont2 ;
+    src: url("fonts/TitilliumWeb-ExtraLight.ttf");
+}
 
 body {
     /* background-image: url("images/pexels-loc-dang-1600132.jpg"); */
     background-color:rgb(255, 255, 255);
+    padding:30px;
     
 }
 .container0 {
     display:flex;
     justify-content:center;
+    background-color:rgb(142, 145, 164);
 }
 .container1 {
     display:inline-block;
     position:relative;
     height:300px;
-    width:300px;
-    
-    
-    
-   
+    width:300px; 
+    padding-top:10px;
+    padding-bottom:10px; 
 }
 
 #theBible {
     height:300px ;
     width:300px;
     border-radius:20px; 
+    
+    
 }
 
 h1 {
@@ -36,10 +42,40 @@ h1 {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 15%; /* Adjust this value to move the positioned div up and down */
+    top: 15%; 
     text-align: center;
     width: 60%;
     color:white;
+}
 
 
+.container2 {
+    display:flex;
+    justify-content:center;
+    background-color:rgb(142, 145, 164);
+    
+    
+}
+
+#div1 {
+   background-color:rgb(255, 255, 255);
+   width:300px;
+   height:200px;
+   border-radius:10px;
+   margin-top:10px;
+   margin-bottom:10px;
+  
+}
+
+p {
+    position:absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left:-200px;
+    right: 0; 
+    margin-top:10px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: myFont2, Arial, Helvetica, sans-serif;
+    
 }
