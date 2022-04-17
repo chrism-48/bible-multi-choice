@@ -38,12 +38,18 @@ body {
     border-radius:20px; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.345);
     border-style:solid;
-    border-width:1px;
-    border-color:rgb(245, 245, 245);
-    
-    
-    
+    border-width:2px;
+    border-color:rgb(245, 245, 245);   
 }
+
+@media screen and (min-width:820px) {
+    .container {
+      width:770px;
+    }
+    #theBible {
+        width:770px; 
+    }
+  }
 
 h1 {
     font-family: myFont2, Arial, Helvetica, sans-serif;
@@ -61,13 +67,15 @@ h1 {
 
 .container2 {
     display:flex;
-    background-color:rgb(52, 229, 229);
-    flex-flow:column;
-    border-style:solid;
-    border-width:1px;
-    border-color:rgb(255, 255, 255);
+    background-color:rgba(165, 170, 187, 0.083);
+    flex-flow:column;  
     border-radius:10px;
     padding-right:2px;
+    padding-left:5px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    border-width:1px;
+    
     
     
 }
@@ -76,19 +84,26 @@ h1 {
     min-width:100px;
     border-style:solid;
     border-width:1px;
-    border-color:rgb(255, 255, 255);
-    border-bottom-right-radius:10px;
-    border-bottom-left-radius:10px;
+    border-color:rgb(0, 0, 0);
+    border-radius:5px;
     margin-left:10px;
     margin-right:12px;
     margin-top:10px;
     margin-bottom:10px;
+}   
     
-    
-    
-    
-    
-    
+.container3 {
+    display:flex;
+    background-color:rgba(165, 170, 187, 0.083);
+    flex-flow:row;
+    /* border-style:solid;
+    border-width:2px;
+    border-color:rgb(255, 255, 255);
+    border-radius:10px; */
+    padding-right:2px;
+    padding-left:5px;
+    padding-bottom:15px;
+        
 }
 
 ol {   
@@ -99,14 +114,14 @@ ol {
     position:relative;
     left:10px;
     background-color:rgb(255, 255, 255);
-    border-style:solid;
-    border-width:1px;
-    border-color:rgb(0, 0, 0);
     margin-bottom:-10px;
     border-radius: 5px;
     margin-right:25px;
     padding:20px;
     margin-bottom:10px;
+    border-style:ridge;
+    border-color:rgb(0, 0, 0);
+    border-width:3px;
     
     
 }
@@ -118,8 +133,6 @@ ul {
     justify-content: left;
     position:relative;
     left:-15px;
-    border-style:solid;
-    border-width:1px;
     border-color:rgb(0, 0, 0);
     margin-left:25px;
     
@@ -127,20 +140,39 @@ ul {
     border-radius:5px;
     padding-left:30px;
     padding-top:10px;
-    padding-bottom:10px;   
+    padding-bottom:10px;  
+    border-style:ridge;
+    border-color:rgb(0, 0, 0);
+    border-width:3px; 
     
 }
 
 #myAnswer {
     font-family: myFont2, Arial, Helvetica, sans-serif;
     resize:none;
-    border-style:solid;
-    border-color:black;
-    border-width:1px;
+    border-style:ridge;
+    border-color:rgb(0, 0, 0);
+    border-width:3px;
     color:black;
-    font-size:12px;
+    font-size:13px;
     border-radius: 5px; 
     margin-left:10px;
     margin-right:13px;
+    padding:10px;
     
+}
+
+#reset {
+    z-index: 999;
+    margin-left:30px;
+    width:60px;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    
+}
+
+#start {
+    z-index: 999;
+    margin-left:60px;
+    width:60px;
+    font-family: myFont1, Arial, Helvetica, sans-serif;
 }
