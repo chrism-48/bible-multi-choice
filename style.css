@@ -4,19 +4,24 @@
 }
 @font-face {
     font-family:myFont2 ;
-    src: url("fonts/TitilliumWeb-ExtraLight.ttf");
+    src: url("fonts/Cabin-Regular.ttf");
 }
 
+html {
+    background-color:black;
+}
 body {
     /* background-image: url("images/pexels-loc-dang-1600132.jpg"); */
-    background-color:rgb(255, 255, 255);
-    padding:30px;
+    background-color:rgb(80, 80, 80);
+    padding:10px;
+    
     
 }
 .container0 {
     display:flex;
     justify-content:center;
-    background-color:rgb(142, 145, 164);
+    background-color:rgb(192, 192, 192);
+    
 }
 .container1 {
     display:inline-block;
@@ -31,6 +36,7 @@ body {
     height:300px ;
     width:300px;
     border-radius:20px; 
+    box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.389);
     
     
 }
@@ -52,7 +58,7 @@ h1 {
 .container2 {
     display:flex;
     justify-content:center;
-    background-color:rgb(142, 145, 164);
+    background-color:rgb(192, 192, 192);
     
     
 }
@@ -64,6 +70,7 @@ h1 {
    border-radius:10px;
    margin-top:10px;
    margin-bottom:10px;
+   box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.389);
   
 }
 
