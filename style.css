@@ -7,6 +7,12 @@
     src: url("fonts/Cabin-Regular.ttf");
 }
 
+@font-face {
+    font-family:myFont3 ;
+    src: url("fonts/Asar_regular.ttf");
+}
+
+
 html {
     background-color:black;
 }
@@ -38,8 +44,9 @@ body {
     border-radius:20px; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.345);
     border-style:solid;
-    border-width:2px;
-    border-color:rgb(245, 245, 245);   
+    border-width:1px;
+    border-color:rgb(245, 245, 245); 
+     
 }
 
 @media screen and (min-width:820px) {
@@ -52,7 +59,7 @@ body {
   }
 
 h1 {
-    font-family: myFont2, Arial, Helvetica, sans-serif;
+    font-family: myFont3, Arial, Helvetica, sans-serif;
     position:absolute;
     z-index: 999;
     margin: 0 auto;
@@ -61,7 +68,7 @@ h1 {
     top: 30%; 
     text-align: center;   
     color:rgb(0, 0, 0);
-    font-size:30px;
+    font-size:25px;
 }
 
 
@@ -106,7 +113,7 @@ h1 {
 ol {   
     color:rgb(0, 0, 0);
     font-family: myFont2, Arial, Helvetica, sans-serif;
-    font-size:12px;
+    font-size:13px;
     justify-content: left;
     position:relative;
     left:10px;
@@ -115,7 +122,7 @@ ol {
     border-radius: 5px;
     margin-right:25px;
     padding:20px;
-    margin-bottom:10px;
+    margin-bottom:2px;
     border-style:ridge;
     border-color:rgb(0, 0, 0);
     border-width:3px;
@@ -126,7 +133,7 @@ ol {
 ul {   
     color:rgb(0, 0, 0);
     font-family: myFont2, Arial, Helvetica, sans-serif;
-    font-size:12px;
+    font-size:13px;
     justify-content: left;
     position:relative;
     left:-15px;
